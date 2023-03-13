@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { ethers } from 'ethers';
 import { useContractWrite, usePrepareContractWrite } from 'wagmi';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';

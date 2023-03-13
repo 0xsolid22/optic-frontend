@@ -1,7 +1,7 @@
 import { useContractReads } from 'wagmi';
 import { BigNumber } from 'ethers';
 import votingABI from '../utils/VotingABI.json';
-import { VOTING_CONTRACT, ZERO_ADDRESS } from '../consts/goerli';
+import { VOTING_CONTRACT } from '../consts/goerli';
 
 const useVoting = (
   voterAddress: string
